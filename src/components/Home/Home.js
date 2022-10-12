@@ -13,8 +13,8 @@ const Home = () => {
       <div>
         {" "}
         <h2 className="text-5xl lg:py-20 py-5 font-bold animation-text">
-          Let's Explore Your Talent{" "}
-          <span className="text-7xl text-red-500">Quiz Hunt</span>
+          Let's Explore Yourself{" "}
+          <span className="text-7xl text-red-500">With Quiz-Munia</span>
         </h2>
       </div>
       <div className="lg:flex lg:gap-4 w-10/12 mx-auto pb-20">
