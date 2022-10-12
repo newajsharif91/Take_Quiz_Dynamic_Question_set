@@ -26,7 +26,7 @@ const handelForCorrect = () =>{
   return (
     <div className="p-4">
       <button onClick={handelForCorrect} className="active">
-        <div className="flex items-center rounded-lg  border-2 lg:w-[400px] lg:h-20 md:w-100 md:h-20 p-3 w-55 h-50 border-indigo-600">
+        <div className="flex items-center text-left rounded-lg  border-2 w-[280px] h-[80px] md:w-[350px] md:h-[75px] lg:w-[280px] lg:h-20 p-3 border-indigo-600">
           {opti}
         </div>
       </button>
