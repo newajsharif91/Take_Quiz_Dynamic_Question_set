@@ -11,34 +11,49 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: '/',
-      element:<Main></Main>,
+      path: "/",
+      element: <Main></Main>,
       children: [
         {
-          path: '/',
-          loader: () =>  fetch('https://openapi.programming-hero.com/api/quiz'),
-          element: <Home></Home>
+          path: "/",
+          loader: () => fetch("https://openapi.programming-hero.com/api/quiz"),
+          element: <Home></Home>,
         },
         {
-          path:'/quizes/:id',
-          loader: async ({params}) => {
-            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
-        },
-          element: <Quizes></Quizes>
-        },
-        {
-          path: '/chart',
-          loader: () =>  fetch('https://openapi.programming-hero.com/api/quiz'),
-          element: <Chart></Chart>
+          path: "/quizes/:id",
+          loader: async ({ params }) => {
+            return fetch(
+              `https://openapi.programming-hero.com/api/quiz/${params.id}`
+            );
+          },
+          element: <Quizes></Quizes>,
         },
         {
-          path: '/blog',
-          element: <Blog></Blog>
-        }
-
-      ]
-    }
-  ])
+          path: "/chart",
+          loader: () => fetch("https://openapi.programming-hero.com/api/quiz"),
+          element: <Chart></Chart>,
+        },
+        {
+          path: "/blog",
+          element: <Blog></Blog>,
+        },
+        {
+          path: "*",
+          element: (
+            <div className="mx-auto m-20">
+              <h1>
+                <strong className="text-4xl">This Route Not Found</strong>{" "}
+                <br />
+                <strong className="text-4xl">
+                  You click Wrong Route.Please selete Right Route
+                </strong>
+              </h1>
+            </div>
+          ),
+        },
+      ],
+    },
+  ]);
 
 
   return (
