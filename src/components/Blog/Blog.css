@@ -1,0 +1,9 @@
+.blog{
+    background-image: url('https://img.freepik.com/free-photo/ai-nuclear-energy-background-future-innovation-disruptive-technology_53876-129783.jpg?w=740&t=st=1665474982~exp=1665475582~hmac=3ffebdd7600fcee12661f604d4a6d8bee0fa5f814b11380dba9f560dc0910b90');
+    background-size: cover;
+    height: 100vh;
+}
+
+.bgc{
+    background-color: rgba(206, 207, 248, 0.788);
+}
