@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "../Modal/Modal";
 import OptionCart from "../OptionCart/OptionCart";
-import "./QuizesEach.css";
+
 
 const QuizesEach = ({ qui, index }) => {
   const { id, question, options, correctAnswer } = qui;

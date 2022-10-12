@@ -9,7 +9,7 @@ const Quizes = () => {
   const quizName = quizLoaderData.data.name;
 
   return (
-    <div className="bg-orange-100 pb-10">
+    <div className="bg-slate-900 pb-10">
       <h2 className="pt-14 text-3xl font-bold">Quiz: {quizName}</h2>
 
       <div className="gap-5">
