@@ -12,19 +12,18 @@ const Chart = () => {
   const quizData = quizes.data;
   // console.log(quizData)
 
-  return <div className="chart">
-
+  return (
+    <div className="chart">
       <div>
-      {
-      quizData.map(quiz => 
-      <ChartDetails
-      key={quiz.id}
-      quiz = {quiz}
-      ></ChartDetails>
-      )}
+        <LineChart width={500} height={400} data={quizData}>
+          <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip></Tooltip>
+        </LineChart>
       </div>
-
-  </div>;
+    </div>
+  );
 };
 
 export default Chart;
