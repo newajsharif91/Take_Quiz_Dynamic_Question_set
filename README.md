@@ -2,4 +2,4 @@ Git is a free and open source distributed code management and Version control sy
 
 Git Repo link:https://github.com/programming-hero-web-course2/b6-quiz-crackerz-newajsharif91
 
-live Site link:
+live Site link:https://prismatic-trifle-ca961d.netlify.app/
