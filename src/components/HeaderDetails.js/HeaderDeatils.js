@@ -11,12 +11,12 @@ const HeaderDeatils = () => {
             alt=""
           />
           <div className="lg:text-left text-center ">
-            <h2 className="text-5xl lg:py-20 py-3 font-bold animation-text">
+            <h2 className="text-5xl lg:py-20 py-3 font-bold animation-text text-white">
               Test Youself with{" "}
               <span className="text-7xl text-orange-500">Quiz-Munia</span>
             </h2>
             <p className="py-6">
-              <strong>
+              <strong className="text-white">
                 Take an IQ test, career test or personality test online now. Get
                 serious answers for career assessment, intelligence and
                 personality.
