@@ -1,5 +1,6 @@
 .chart{
     background-image: url('https://i.ibb.co/z7fzdCV/210915.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 780px;
+    max-width: 100%;
 }

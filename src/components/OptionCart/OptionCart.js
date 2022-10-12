@@ -23,17 +23,15 @@ const handelForCorrect = () =>{
 }
 
 
-  return <div>
-    
-    <button onClick={handelForCorrect} className='active'>
-    <div className='flex items-center rounded-lg  border-2 w-80 h-20 p-3 border-indigo-600'>
-            {opti}
+  return (
+    <div className="p-4">
+      <button onClick={handelForCorrect} className="active">
+        <div className="flex items-center rounded-lg  border-2 lg:w-[400px] lg:h-20 md:w-100 md:h-20 p-3 w-55 h-50 border-indigo-600">
+          {opti}
         </div>
-    </button>
-
-
-
-  </div>;
+      </button>
+    </div>
+  );
 };
 
 export default OptionCart;
